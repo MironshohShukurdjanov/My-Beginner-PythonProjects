@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset and clean missing values
-file_path = "/Users/mironshohshukurdjanov/Downloads/Online Retail.csv"
+file_path = "Online Retail.csv"
 data = pd.read_csv(file_path, encoding='ISO-8859-1')
 
 # Convert Invoice Date to datetime format (fixes inconsistencies)
